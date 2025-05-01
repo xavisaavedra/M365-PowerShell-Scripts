@@ -1,0 +1,20 @@
+# Ignorar datos sensibles y salidas temporales
+/data/JsonInput/
+/data/JsonOutput/
+/logs/
+
+# Archivos de log
+*.log
+*.transcript
+
+# Archivos JSON temporales
+*.json
+
+# Archivos generados por PowerShell
+*.ps1xml
+*.psd1
+*.psm1
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
